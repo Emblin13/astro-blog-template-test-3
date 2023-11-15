@@ -3,8 +3,8 @@
 import type { Site, SocialMediaObjects } from "./types";
 
 export const SITE: Site = {
-    siteUrl: "https:/astro-lane.chrstnl.com/", // Always put "/" at the end of the URL
-    author: "chrstnl",
+    siteUrl: "https:/mywebsite.com/", // Always put "/" at the end of the URL
+    author: "Brendan K.",
     desc: "A personal portfolio landing template for developers and designers.",
     title: "Astro Lane",
     ogImage: "images/astro-lane.png",
@@ -35,21 +35,21 @@ export const SOCIALS: SocialMediaObjects = [
         href: "https://github.com/christian-luntok/astro-lane/",
         icon: "ph:instagram-logo-duotone",
         title: `Follow ${SITE.author} on Instagram`,
-        active: true
+        active: false
     },
     {
         name: "LinkedIn",
         href: "https://github.com/christian-luntok/astro-lane/",
         icon: "ph:linkedin-logo-duotone",
         title: `Follow ${SITE.title} on LinkedIn`,
-        active: true
+        active: false
     },
     {
         name: "Mail",
         href: "mailto:yourmail@gmail.com",
         title: `Send an email to ${SITE.title}`,
-        icon: "",
-        active: false
+        icon: "ri:mail-fill",
+        active: true
     },
     {
         name: "Twitter",

@@ -20,8 +20,8 @@ If you're looking to configure some global data on your site, you'll want to mod
 
 ```ts
 export const SITE: Site = {
-    siteUrl: "https:/astro-lane.chrstnl.com", // Global Site URL
-    author: "chrstnl", // Author for Posts
+    siteUrl: "mywebsite.com", // Global Site URL
+    author: "Brendan K.", // Author for Posts
     desc: "A personal portfolio landing template for developers and designers.", // Default site description
     title: "Astro Lane", // Default site title
     ogImage: "images/lane.png", // Default ogImage
